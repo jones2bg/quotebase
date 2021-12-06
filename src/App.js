@@ -1,9 +1,14 @@
 import './App.css';
+import {Authors} from './Authors.js';
+import {Quotations} from './Quotations.js';
+import {Adder} from './Adder.js'
 
 function App() {
   return (
     <div className="App">
-      Hi.
+      <Authors />
+      <Quotations />
+      <Adder />
     </div>
   );
 }
